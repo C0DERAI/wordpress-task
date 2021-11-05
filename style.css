@@ -1,0 +1,255 @@
+/* 
+Theme Name: LGSThemes
+Text Domain: LGSThemes
+Version: 1.0
+Description: This is a Wordpress task for Leicester groundworks services
+Tags: design, responsive, construction, groundworks, Leicester groundworks
+Author: Riwat Rai
+Author URI: https://riwatrai.co.uk/
+*/
+:root{
+  --yellow-primary:#FED314;
+  --yellow-text: #FECF00;
+  --grey:#C6BBB4;
+  --light-grey:#E8E8E8;
+  --dark-grey: #848484;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+html {
+  line-height: 1.15;
+}
+
+/* body{
+  background-color:red;
+  padding:0 1rem ;
+  
+} */
+
+/* Global styles */
+.sub-container{
+  padding: 0 10rem;
+  margin: 0 auto;
+}
+
+/* header styles */
+.header{
+  position: relative;
+}
+.header::before{
+  content: '';
+  width: 100%;
+  height:5px;
+  background: var(--yellow-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header::after{
+  content: '';
+  width: 100%;
+  height:5px;
+  background: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.top-bar{
+  padding:0;
+  padding-top:1.5rem;
+}
+.top-bar, .top-bar ul{
+  background: transparent;
+}
+.top-bar-left{
+  background: transparent;
+  text-align: left;
+}
+.top-bar-left .menu-logo img{
+  width: 250px;
+}
+.top-bar-right{
+  color:var(--grey)
+}
+.top-bar-right .contact-info-phone{
+  font-size: 2em;
+}
+.top-bar-right .contact-info-email{
+  font-size: 1em;
+
+}
+
+.sub-bar-nav{
+	position: relative;
+  padding: 0 6.8rem;
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+	font-size: 0;
+  text-align:center;
+}
+.sub-bar-nav a{
+	font-size: 12px;
+	text-transform: uppercase;
+  padding:0 calc(1vw - 1.5px);;
+	color: #000;
+	text-decoration: none;
+	line-height: 50px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+}
+
+.sub-bar-nav a:hover::after{
+	content: '';
+  position: absolute;
+  width: 100%;
+	height: 20px;
+	bottom: 0;
+  left:0%;
+	z-index: 0;
+	border-bottom: 5px solid var(--yellow-primary);
+	transition: all .5s ease 0s;
+}
+/* map styles */
+  section.map{
+    margin-top: 21px;
+  }
+
+/* footer styles */
+.footer{
+  position: relative;
+  padding: 2rem 0 ;
+  margin-top: 4rem;
+  border-bottom: 2px solid var(--grey);
+}
+.footer::before{
+  content: '';
+  width: 100%;
+  height: 5px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer::after{
+  content: '';
+  width: 100%;
+  height: 5px;
+  background-color: var(--yellow-primary);
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.footer .copyright{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+/* card styles */
+.card-container{
+  width: 76vw;
+  margin-top: 21px;
+}
+.card{
+  max-width: 243px;
+  border: none;
+  /* background:red; */
+}
+.card .card-section{
+  width: 100%;
+  padding:.5rem .75rem;
+  margin-top: .9rem;
+  background-color: var(--light-grey);
+}
+.card .card-section .arrow-icon{
+  float: right;
+
+}
+.card .card-section .card-action{ 
+  height: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--dark-grey);
+}
+
+.card .card-section .card-action:hover ~ .arrow-icon { 
+  animation: moveRight 500ms ease;
+}
+
+@keyframes moveRight{
+  from{opacity:0;transform: translateX(-50%);}
+  to{opacity:1; transform: translateX(0%);}
+}
+/* @media screen and (min-width: 40em) {
+  body{
+    padding:0 1rem;
+  }
+  
+} */
+@media screen and (max-width: 39.9375em) {
+.card-container{
+    width: 100%;
+  }
+  .card-container div{
+    margin: 0 auto;
+  }
+.card .card-section{
+    margin-top:0;
+    margin-bottom:1rem;
+    display: block;
+  }
+  .card .card-section .arrow-icon{
+    display: none;
+    /* width: calc(4vw + 5px);   */
+  }
+  .card .card-section .card-action{ 
+    margin: 0 auto; 
+    font-size: calc(5vw / 1.5);
+
+  }
+  .grid-container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 1024.5px) {
+  .card-container{
+    width: 95vw;
+  }
+  .sub-container{
+    padding:0;
+    
+  }
+  .card .card-section{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .footer .copyright{
+    font-size: calc(100vw / 40);
+  }
+  .banner-container .slide-description{
+    font-size: calc(100vw / 28);
+  }
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+
+  .card .card-section .card-action{ 
+    font-size: calc(50vw / 28);
+  }
+}
