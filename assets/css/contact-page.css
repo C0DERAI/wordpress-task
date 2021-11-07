@@ -1,0 +1,42 @@
+.contact-us-title{
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.contact-us-form .form-control{
+  /* background: red; */
+  border: 1px solid var(--dark-grey);
+  border-radius: 3px;
+}
+.contact-us-form .submit-button{
+  text-transform: uppercase;
+  background-color: #000;
+  border-radius: 3px;
+}
+.contact-us-info{
+  margin: 1rem 0 1rem;
+  padding: .7rem 0;
+}
+.contact-us-info p{
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: var(--dark-grey);
+  margin-bottom:0;
+}
+
+/* mobile screen */
+@media screen and (max-width: 39.9375em) {
+  .submit-button{width: 100%;}
+  .contact-us-info p{
+    font-size: .8em;
+  }
+}
+/* laptop screen */
+@media screen and (max-width: 1024px) {
+  .contact-us-form, .contact-us-title{
+    padding:0 1.5rem;
+  }
+  .contact-us-info{
+    padding:1rem 1.5rem;
+  }
+}
