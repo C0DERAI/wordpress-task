@@ -16,7 +16,7 @@ get_header();
 		<h3 class="slide-description hide-for-small-only">
 			landscaping,<br/> civil engineering<br/> and groundworks contractors
 		</h3>
-		<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/homepage-banner.png">
+		<img src="<?php echo get_template_directory_uri(); ?> /assets/images/homepage-banner.png">
 		
 		<label class="prev show-for-small-only" for="i5"><span>&#x2039;</span></label>
 		<label class="next show-for-small-only" for="i2"><span>&#x203a;</span></label>	
@@ -27,7 +27,7 @@ get_header();
 		<h3 class="slide-description hide-for-small-only">
 			landscaping,<br/> civil engineering<br/> and groundworks contractors
 		</h3>
-		<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/homepage-banner.png " >
+		<img src="<?php echo get_template_directory_uri(); ?> /assets/images/homepage-banner.png" >
 		
 		<label class="prev show-for-small-only" for="i1"><span>&#x2039;</span></label>
 		<label class="next show-for-small-only" for="i3"><span>&#x203a;</span></label>
@@ -38,7 +38,7 @@ get_header();
 			<h3 class="slide-description hide-for-small-only">
 				landscaping,<br/> civil engineering<br/> and groundworks contractors
 			</h3>
-			<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/homepage-banner.png">	
+			<img src="<?php echo get_template_directory_uri(); ?> /assets/images/homepage-banner.png">	
 			
 			<label class="prev show-for-small-only" for="i2"><span>&#x2039;</span></label>
 			<label class="next show-for-small-only" for="i4"><span>&#x203a;</span></label>
@@ -48,7 +48,7 @@ get_header();
 			<h3 class="slide-description hide-for-small-only">
 				landscaping,<br/> civil engineering<br/> and groundworks contractors
 			</h3>
-			<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/homepage-banner.png">	
+			<img src="<?php echo get_template_directory_uri(); ?> /assets/images/homepage-banner.png">	
 			
 			<label class="prev show-for-small-only" for="i3"><span>&#x2039;</span></label>
 			<label class="next show-for-small-only" for="i5"><span>&#x203a;</span></label>
@@ -58,7 +58,7 @@ get_header();
 			<h3 class="slide-description hide-for-small-only">
 				landscaping,<br/> civil engineering<br/> and groundworks contractors
 			</h3>
-			<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/homepage-banner.png">	
+			<img src="<?php echo get_template_directory_uri(); ?> /assets/images/homepage-banner.png">	
 			
 			<label class="prev show-for-small-only " for="i4"><span>&#x2039;</span></label>
 			<label class="next show-for-small-only" for="i1"><span>&#x203a;</span></label>
@@ -77,40 +77,40 @@ get_header();
 </section>
 <!-- map section -->
 <section class="map text-center sub-container">
-	<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/map.png" alt="Map location">
+	<img src="<?php echo get_template_directory_uri(); ?> /assets/images/map.png" alt="Map location">
 </section>
 	<!-- card section -->
 	<section class="grid-container card-container ">
   <div class="grid-x grid-margin-x small-up-2 medium-up-4 large-up-4">
 		<div class="cell">
 			<div class="card card-1">
-				<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/Layer-15.png" alt="lsg card 1">
+				<img src="<?php echo get_template_directory_uri(); ?> /assets/images/Layer 15.png" alt="lsg card 1">
 				<div class="card-section ">
-  				<a href="#" class="card-action">drainage</a> <img class="arrow-icon" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/arrow-icon.png" alt="arrow icon">
+  				<a href="#" class="card-action">drainage</a> <img class="arrow-icon" src="<?php echo get_template_directory_uri(); ?> /assets/images/arrow-icon.png" alt="arrow icon">
         </div>
       </div>
 		</div>
 		<div class="cell">
 			<div class="card card-2">
-				<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/Layer-14.png" alt="lsg card 2">
+				<img src="<?php echo get_template_directory_uri(); ?> /assets/images/Layer 14.png" alt="lsg card 2">
 				<div class="card-section">
-					<a href="#" class="card-action">resurfacing</a><img class="arrow-icon" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/arrow-icon.png" alt="arrow icon">
+					<a href="#" class="card-action">resurfacing</a><img class="arrow-icon" src="<?php echo get_template_directory_uri(); ?> /assets/images/arrow-icon.png" alt="arrow icon">
 				</div>
 			</div>
 		</div>
 		<div class="cell">
 			<div class="card card-3">
-				<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/Layer-16.png" alt="lsg card 3">
+				<img src="<?php echo get_template_directory_uri(); ?> /assets/images/Layer 16.png" alt="lsg card 3">
 				<div class="card-section">
-				  <a href="#" class="card-action">vehicle hire</a><img class="arrow-icon" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/arrow-icon.png" alt="arrow icon">
+				  <a href="#" class="card-action">vehicle hire</a><img class="arrow-icon" src="<?php echo get_template_directory_uri(); ?> /assets/images/arrow-icon.png" alt="arrow icon">
         </div>
 			</div>
 		</div>
 		<div class="cell">
 			<div class="card card-4">
-				<img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/Layer-17.png" alt="lsg card 4">
+				<img src="<?php echo get_template_directory_uri(); ?> /assets/images/Layer 17.png" alt="lsg card 4">
 				<div class="card-section">
-				  <a href="#" class="card-action">mapping</a><img class="arrow-icon" src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/arrow-icon.png" alt="arrow icon">
+				  <a href="#" class="card-action">mapping</a><img class="arrow-icon" src="<?php echo get_template_directory_uri(); ?> /assets/images/arrow-icon.png" alt="arrow icon">
         </div>
 			</div>
 		</div>

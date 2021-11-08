@@ -21,11 +21,11 @@
 			<span></span>
 			<span></span>
 		</div>
-		<div class="mobile-nav-logo"><a href="/wordpress"><img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/logo.png" alt="LSG logo"></a></div>
+		<div class="mobile-nav-logo"><a href="/wordpress"><img src="<?php echo get_template_directory_uri(); ?> /assets/images/logo.png" alt="LSG logo"></a></div>
 		<div class="mobile-nav-items">
 			<ul>
 				<li>
-					<a href="contact.php">clients</a>
+					<a href="#">clients</a>
 				</li>
 				<li>
 					<a href="#">utility services location & mapping</a>
@@ -46,7 +46,7 @@
 					<a href="#">areas of operation</a>
 				</li>
 				<li>
-					<a href="http://127.0.0.1/wordpress/contact">contact us</a>
+					<a href="wordpress/contact">contact us</a>
 				</li>
 			</ul>
 		</div>
@@ -54,12 +54,12 @@
 	
 	<div class="top-bar sub-container" >
 		<div class="top-bar-left float-left" >
-      <div class="menu-logo "><a href="/wordpress"><img src="http://127.0.0.1/wordpress/wp-content/uploads/2021/11/logo.png" alt="LSG logo"></a></div>
+      <div class="menu-logo "><a href="/wordpress"><img src="<?php echo get_template_directory_uri(); ?> /assets/images/logo.png" alt="LSG logo"></a></div>
 		</div>
 		<div class="top-bar-right float-right">
 			<div class="contact-info">
-				<a href="http://127.0.0.1/wordpress/contact/" class="contact-info-phone">01234 567890</a><br/>
-				<a href="http://127.0.0.1/wordpress/contact/" class="contact-info-email">enquiries@lgservices.com</a>
+				<a href="wordpress/contact/" class="contact-info-phone">01234 567890</a><br/>
+				<a href="wordpress/contact/" class="contact-info-email">enquiries@lgservices.com</a>
 			</div>
 		</div>
 	</div>

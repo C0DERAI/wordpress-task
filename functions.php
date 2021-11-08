@@ -12,7 +12,7 @@ function load_stylesheets(){
   $version = wp_get_theme()->get('Version');
   wp_enqueue_style('foundation','https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css', array(), '6.7.4', 'all');
   wp_enqueue_style('sliderstyle', get_template_directory_uri() . '/assets/css/slider.css', array(), false, 'all');
-  wp_enqueue_style('contact-us-style', get_template_directory_uri() . '/assets/css/contact-page.css', array(), false, 'all');
+  wp_enqueue_style('contact-us-style', get_template_directory_uri() . '/assets/css/contact-page.css', array(), $version, 'all');
   wp_enqueue_style('mystyle', get_template_directory_uri() . '/style.css', array(), $version, 'all');
 }
 
